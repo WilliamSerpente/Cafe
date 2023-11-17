@@ -76,6 +76,10 @@ p{
     padding-bottom: 2%;
     color: #543a21;
 }
+span{
+    color: #cf965f;
+    font-family: 'Bebas Neue', sans-serif;
+}
 
 a :hover,.enlace:hover{
   color: #cf965f;
@@ -268,21 +272,61 @@ img{
 
 /* RESPONSIVENESS */
 
+@media screen and (max-width: 1200px) {
+
+.parallax1{
+    height: 500px;
+}    
+  
+  .header h1 img {
+    width: 130px !important;
+    margin-left: -10px;
+  }
+  .header h1 {
+
+    margin-top: 140px;
+    font-size: 72px;
+  }
+  .header h3{
+    font-size: 32px;
+    margin-top: -90px;
+    margin-left: -20px;
+  }
+
+
+}
+
+/* @media screen and (max-width: 1200px) {
+
+    .parallax1{
+        height: 500px;
+    }    
+      
+      .header h1 img {
+        width: 130px !important;
+        margin-left: -10px;
+      }
+      .header h1 {
+    
+        margin-top: 25%;
+        margin-left: -50%;
+        font-size: 72px;
+      }
+      .header h3{
+        font-size: 32px;
+        margin-top: -90px;
+        margin-left: -30%;
+      }
+    
+    
+    } */
 
 @media screen and (max-width: 768px) {
   p {
     font-size: 16px;
   }
   
-  .header img{
-    width: 200px;
-    margin-left: -100px;
-    position: static;
-  }
-  .container-fluid img {
-    width: 400px ;
-  }
-  .spidermano img{
+  .cafemano img{
     display: none !important;
   }
   .creador img{
@@ -291,9 +335,6 @@ img{
     width: 200px;
   }
 
-  iframe{
-    width: 300px;
-  }
   h1 {
     font-size: 25px;
   }
@@ -311,38 +352,36 @@ img{
 
 @media screen and (max-width: 480px) {
   
-  .header h3{
-    text-align: center;
-    position: relative;
-    left: -40px;
-    
-  }
-  .container-fluid img {
-    width: 300px ;
-  }
-  .spidermano img{
+    hr{
+        width: 100%;
+        margin: auto;
+        
+    }    
+.parallax1{
+    height: 400px;
+}    
+.header{
+        height: 350px;
+}
+  .cafemano img{
     display: none !important;
   }
-  .creador img{
-    position: absolute;
-    left: 0px;
-    width: 200px;
-  }
   
-  iframe{
-    width: 200px;
+  .header h1 img {
+    width: 100px !important;
+    margin-left: -10px;
   }
-  h1 {
-    font-size: 23px;
+  .header h1 {
+
+    margin-top: 105px;
+    font-size: 58px;
   }
-  h4 {
-    font-size: 18px;
+  .header h3{
+    font-size: 24px;
+    margin-top: -90px;
+    margin-left: -20px;
   }
-  .centerText{
-    height: 350px;
-  }
-  .centerText h1{
-    font-size: 36px;
-  }
+
+
 }
 
