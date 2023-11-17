@@ -1,0 +1,348 @@
+/* helvetica neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap');
+
+/* MARRON CLARITO: #cf965f
+   MARRON OSCURO: #543a21 
+   BLANCO 
+   WHITESMOKE
+   */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.container-fluid {
+    padding: 60px 50px;
+    background-color: rgb(255, 255, 255);
+  }
+
+.bg-gray{
+    background-color: #f9f9f9;
+}
+.bg-brown{
+    background-color: rgb(84, 58, 33) ;
+}
+.bg-brownie{
+    background-image: linear-gradient(180deg,rgba(46, 32, 18, 0.9) ,rgba(84, 58, 33,0.9) ) ;
+}
+.footer-brown{
+    color: rgb(84, 58, 33) ;
+    background-image: linear-gradient(rgba(46, 32, 18, 0.9) ,rgba(84, 58, 33,0.9) ), url(../img/footer.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+.color-yellow{
+  color: #cf965f;
+}
+
+.header{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(25, 25, 25, 0.2)), url(../img/header.jpg);
+}
+.header h1{
+    margin-top: 25%;
+}
+.header h3{
+    font-size: 30px;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 84px;
+    color: whitesmoke;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 38px;
+    
+}
+h3{
+ font-family: 'Bebas Neue', sans-serif;
+}
+p{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: #543a21;
+}
+
+a :hover,.enlace:hover{
+  color: #cf965f;
+  text-decoration: none;
+}
+a:focus,.enlace:focus{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.navbar-brand h2:hover{
+    color: whitesmoke;
+}
+hr{
+    border: none;
+    background-color: #543a21;
+    color: #543a21;
+    height: 3px;
+    width: 80%;
+    margin: auto;
+    
+}
+img{
+    margin: 10px 0px;
+}
+.img-rounded{
+    border: 3px solid #543a21;
+    box-shadow: 1px 1px 5px black;
+}
+
+.card-title{
+    font-size: 32px;
+}
+.card{
+    background-color: #cf965f;
+    padding: 5% 3%;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+.card:hover{
+ transform: scale(1.05);
+ box-shadow: 10 10px 10px black;
+}
+.card a, .card a i{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #543a21;
+    font-size: 24px;
+}
+
+.boton{
+    padding: 2% 0;
+    box-shadow: 5px 5px 0px black;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #cf965f;
+    border:  #543a21 ;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+  }
+.boton:hover,.boton:focus{
+    background-color: #543a21!important;
+}
+.thumbnail{
+    border-color: #cf965f;
+}
+
+.icono{
+    font-size: 64px;
+    color: #cf965f;
+}
+
+.navbar {  
+    margin-bottom: 0;
+    background-color: #cf965f;
+    border: 0;
+    font-size: 18px !important;
+    z-index: 9999;
+    line-height: 1.42857143; 
+    letter-spacing: 2px; 
+    border-radius: 0;
+    justify-content: center;
+  }
+  .icon-bar{
+    background-color: white!important;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: whitesmoke !important ;
+    font-family: 'Bebas Neue', sans-serif !important; 
+  }
+  .navbar-nav li a:hover{
+    color: whitesmoke !important; 
+    background-color: #543a21!important;
+  }
+  .navbar-nav li.active a{
+    color: whitesmoke !important; 
+    background-color: #543a21  !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #cf965f !important;
+  }
+
+  .lista-beneficios ul li{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: #543a21;
+    margin-left: 5%;
+  }
+
+  label{
+    color: #cf965f;
+    margin: 8px 0px;
+  }
+
+  textarea{
+    resize: vertical;
+    margin-bottom: 4%;
+  }
+
+
+ footer a,.color-white{
+  color: whitesmoke;
+ }
+
+ footer a{
+  font-size: 15px;
+ }
+ footer ul li{
+  padding-top: 5px;
+ }
+
+ 
+/** Animaciones */
+ .slide {
+   animation-name: slide;
+   -webkit-animation-name: slide;
+   animation-duration: 1s;
+   -webkit-animation-duration: 1s;
+   visibility: visible;
+ }
+ @keyframes slide {
+   0% {
+     opacity: 0;
+     transform: translateX(-20%);
+   } 
+   100% {
+     opacity: 1;
+     transform: translateX(0%);
+   }
+ }
+ @-webkit-keyframes slide {
+   0% {
+     opacity: 0;
+     -webkit-transform: translateX(-20%);
+   } 
+   100% {
+     opacity: 1;
+     -webkit-transform: translateX(0%);
+   }
+ }
+
+ .slideup {
+  animation-name: slideup;
+  -webkit-animation-name: slideup;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slideup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/* RESPONSIVENESS */
+
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+  
+  .header img{
+    width: 200px;
+    margin-left: -100px;
+    position: static;
+  }
+  .container-fluid img {
+    width: 400px ;
+  }
+  .spidermano img{
+    display: none !important;
+  }
+  .creador img{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+  }
+
+  iframe{
+    width: 300px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .centerText{
+    height: 350px;
+  }
+  .centerText h1{
+    font-size: 38px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  .header h3{
+    text-align: center;
+    position: relative;
+    left: -40px;
+    
+  }
+  .container-fluid img {
+    width: 300px ;
+  }
+  .spidermano img{
+    display: none !important;
+  }
+  .creador img{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+  }
+  
+  iframe{
+    width: 200px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .centerText{
+    height: 350px;
+  }
+  .centerText h1{
+    font-size: 36px;
+  }
+}
+
