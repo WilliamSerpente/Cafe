@@ -296,31 +296,6 @@ img{
 
 }
 
-/* @media screen and (max-width: 1200px) {
-
-    .parallax1{
-        height: 500px;
-    }    
-      
-      .header h1 img {
-        width: 130px !important;
-        margin-left: -10px;
-      }
-      .header h1 {
-    
-        margin-top: 25%;
-        margin-left: -50%;
-        font-size: 72px;
-      }
-      .header h3{
-        font-size: 32px;
-        margin-top: -90px;
-        margin-left: -30%;
-      }
-    
-    
-    } */
-
 @media screen and (max-width: 768px) {
   p {
     font-size: 16px;
@@ -346,6 +321,11 @@ img{
   }
   .centerText h1{
     font-size: 38px;
+  }
+
+  .card img{
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -381,7 +361,6 @@ img{
     margin-top: -90px;
     margin-left: -20px;
   }
-
-
 }
 
+/* Quien pudiera tomarse un cafecito con Richard Añez pa despues amanecer en el Ventarron */
